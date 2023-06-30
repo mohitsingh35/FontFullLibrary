@@ -1,6 +1,6 @@
   # FontFullLibrary ツ 
 
-FontFull is a demonstration library to teach created as a self-teaching project, packed with excellent font formatting features in just 4 lines of code
+FontFull is a demonstration library created as a self-teaching project, packed with excellent font formatting features in just 4 lines of code
 
 # Features
 
