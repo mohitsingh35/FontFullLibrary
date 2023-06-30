@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bottom_sheet_bg"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="175dp">
+        <ImageView
+            android:id="@+id/colorWheelImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/colorwheel" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/colour"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="OK"
+        android:gravity="center"
+        android:background="@drawable/buttons"
+        android:textColor="@color/bottom_sheet_bg"
+        android:fontFamily="@font/outfitbold"
+        android:id="@+id/button"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/buttons"
+            android:textColor="@color/bottom_sheet_bg"
+            android:fontFamily="@font/outfitbold"
+            android:text="Cancel"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/cancelbutton"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

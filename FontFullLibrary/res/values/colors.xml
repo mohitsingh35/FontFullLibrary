@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#4CAF50</color>
+    <color name="bottom_sheet_bg">#272727</color>
+    <color name="button_pressed">#96FF9B</color>
+    <color name="button_unpressed">#4CAF50</color>
+    <color name="primary_textcolor">#FFFFFFFF</color>
+
+
+
+
+</resources>
